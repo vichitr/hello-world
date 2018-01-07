@@ -1,4 +1,3 @@
-The first repository. 
-Trying to learn commands.
-I'm Vichitr here.
+The first repository.   
+Trying to learn commands...  
 Hope learn it soon.
