@@ -1,9 +1,10 @@
 .pink {
-	background-color: pink;
+	background-color: pink-lighten-1;
 }
 
 header {
 	width: 100%;
 	text-align: center;
 	padding: 2em;
+	display: block;
 }
