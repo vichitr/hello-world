@@ -29,51 +29,43 @@
 	
 </head>
 <body>
-	<header class="header pink-lighten-1 z-depth-1">
-		<div class="material-placeholder">
-			<img src="images/profile.jpg" alt class="profile circle materialboxed initialized responsive-img">
-			<h1>Vichitr Gandas</h1>
-			<p>Web Developer</p>
-		</div>
-		<nav class="pink-lighten-1">
-			<div class="nav-wrapper">
-				<a href="#" data-activates="mobile-demo" class="button-collapse">
-					<i class="mdi-navigation-menu">
-						::before
-					</i>
-				</a>
-				<ul class="hide-on-med-and-down">
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="projects.html">Projects</a>
-					</li>
-					<li>
-						<a href="resume.pdf">Resume</a>
-					</li>
-				</ul>
-				<ul class="side-nav" id="mobile-demo" style="left: -250px;">
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="projects.html">Projects</a>
-					</li>
-					<li>
-						<a href="resume.pdf">Resume</a>
-					</li>
-				</ul>
+	<div class="hiddendiv common"></div>
+	<header>
+		<div class="container" style="margin: 0;">
+			<div class="beginning-section">
+				<div class="navbar-fixed">
+					<nav class="transparent"
+						<div class="nav-wrapper">
+							<a href="#" data-activates="mobile-demo" class="button-collapse right">
+								<i class="material-icons nav-color-change"> menu</i>
+							</a>
+							<ul class="right hide-on-med-and-down">
+								<li><a class="nav-color-change" href="index.html">Home</a></li>
+								<li><a class="nav-color-change" href="projects.html">Projects</a></li>
+								<li><a class="nav-color-change" href="about.html">About Me</a></li>
+							</ul>
+							<ul class="side-nav center-align purple darken-2" id="mobile-demo">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="about.html">About Me</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="coding-font center-align">
+					<img src="images/profile.png" class="profile circle materialboxed initialized">
+					<span class="wctext">Vichitr Gandas</span>
+				</div>
 			</div>
-		</nav>
+		</div>
 	</header>
 	<main>
 		<div class="container" id="myself">
 			<h1 class="aboutme">About Me</h1>
 			<hr>
 			<div class="row" style="margin-top: 20px; margin-bottom: 40;">
-				<div class="col sl2 ml2 16" id="aboutme-slide">
-					<div style="background-color: #DEDEDE;" id="slide-view">
+				<div class="col s12 m12 l6" id="aboutmeslide">
+					<div style="background-color: #DEDEDE;" id="slideview">
 						<center>Personal Details</center>
 						<div class="black white-text" id="black-screen">
 							<div class="det-div">
@@ -82,7 +74,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col sl2 ml2 16" id="aboutmetext">
+				<div class="col s12 m12 l6" id="aboutmetext">
 					<p> Hi, I'm Vichitr Gandas, a Computer Engineering(B. Tech, 4 Years) student at NITK. I would like to get involved in any 
 						software project on Python, Web Development and Game Development. I know a few of programming languages i.e. C, C++, 
 						JavaScript, Python, CSS, HTML. I love to solve competitive coding problems.   
@@ -98,7 +90,7 @@
 			<div class="life">Memories</div>
 		</div>
 	</main>
-	<footer class="page-footer" style="background-color: #1a237e;">
+	<footer class="page-footer" style="background-color: #7b1fa2;">
 		<div class="container">
 			<div class="row">
 				<div class="col l3 sl2 offset-l1 footer-contact">
@@ -151,5 +143,9 @@
 			</div>
 		</div>
 	</footer>
+	<div class="hiddendiv common"></div>
+	<div class="drag-target" data-sidenav="mobile.demo" style="left: 0px; 
+	touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0,0,0,0);">
+	</div>
 </body>
 </html>
