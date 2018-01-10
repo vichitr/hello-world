@@ -73,7 +73,11 @@ footer {
 	background-color: #d500f9;
 }
 
-.svg {
+footer > div > div > div > div > a > svg {
 	width: 30px;
 	height: 30px;
+}
+
+.get-in-touch {
+	align: center;
 }
