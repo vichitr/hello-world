@@ -1,10 +1,79 @@
-.pink {
-	background-color: pink-lighten-1;
+body {
+	font-family: 'Quicksand', Trebuchet, sans-serif;
 }
 
 header {
+	background-color: #d500f9;
+}
+
+.mysection {
 	width: 100%;
-	text-align: center;
-	padding: 2em;
-	display: block;
+	height: 63vh;
+}
+
+.nav-wrapper {
+	font-weight: 500;
+}
+.container > div > div > p {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.side-nav {
+	width: 35%;
+}
+
+#sidenav-overlay {
+		z-index:1;
+}
+
+.side-nav > li > a {
+	color: white;
+	font-weight: 400;
+}
+	
+.imagesection {
+		width: 100%;
+		color: white;
+		margin: 0;
+		top: 10vh;
+		position: absolute;
+		font-size: 6vh;
+		text-shadow: #000 0px 2px 2px;
+		pointer-events: none;
+}
+.proimg {
+	margin: auto;
+	height: 20vh;
+	margin-bottom: 1vh;
+}
+
+.protxt {
+	font-family: monotype, cursive;
+	font-size: 9vh;
+}
+
+#mygal {
+	positive: relative;
+}
+
+#details-print {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: rgba(0,0,0, 0.8) 0px 20px 30px;
+}
+
+#aboutmetext {
+	
+}
+
+footer {
+	background-color: #d500f9;
+}
+
+.svg {
+	width: 30px;
+	height: 30px;
 }
