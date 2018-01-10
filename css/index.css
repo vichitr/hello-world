@@ -74,7 +74,8 @@ footer {
 }
 
 footer > div > div > div > div > a > svg {
-	box-sizing: inherit;
+	width: 40;
+	height: 40;
 }
 
 .get-in-touch {
