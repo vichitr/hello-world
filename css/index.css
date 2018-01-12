@@ -65,6 +65,11 @@ footer > div > div > div > p {
 	align: center;
 }
 
+#main-content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 .iam {
 	margin-bottom: 0;
 	font-family: 'Monotype Cursiva', cursive;
