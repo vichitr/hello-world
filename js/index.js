@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$('#intro-details').height($('#mydetails').height());
 	if (screen.width > 600)
 	{
-		$('#grey-screen').height($('#intro-details').height() - 5);
+		$('#grey-screen').height($('#intro-details').height() - 20);
 	}
 });
 $(window).scroll(function() {
