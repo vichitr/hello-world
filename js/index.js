@@ -8,7 +8,7 @@ $(document).ready(function(){
 	}
 });
 $(window).scroll(function() {
-	if(($('#whoiam').offset().top - $(window).scrollTop() <= 35)) {
+	if(($('#whoiam').offset().top - $(window).scrollTop() <= 25)) {
 		$('.barcolor').removeClass('white-text').addClass('purple-text').addClass('text-accent-3');
 	}
 	else {
