@@ -89,7 +89,7 @@ footer > div > div > div > p {
 	width: 100%;
 	height: 100%;
 	top: 25px;
-	position: absolute;
+	position: relative;
 	border-radius: 10px;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
@@ -103,6 +103,6 @@ footer > div > div > div > p {
 
 @media screen and (max-width: 600px) {
 	#intro, #intro-details, #grey-screen {
-		max-height: 550px;
+		max-height: 500px;
 	}
 }
