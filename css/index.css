@@ -77,11 +77,11 @@ footer > div > div > div > p {
 }
 
 #intro-details {
-	background-color: #424242;
+	background-color: #d7ccc8;
 	margin-left: 1vw;
 	margin-right: 1vw;
 	border-radius: 5px;
-	box-shadow: rgba(0,0,0,0.8) 0px 20px 60px;
+	box-shadow: rgba(0,0,0,0.8) 0px 20px 80px;
 }
 
 #grey-screen {
