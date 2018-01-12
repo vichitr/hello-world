@@ -78,8 +78,8 @@ footer > div > div > div > p {
 
 #intro-details {
 	background-color: #424242;
-	margin-left: 3vw;
-	margin-right: 3vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
 	border-radius: 15px;
 	position: relative;
 	box-shadow: rgba(0,0,0,0.4) 0px 20px 60px;
@@ -103,6 +103,6 @@ footer > div > div > div > p {
 
 @media screen and (max-width: 600px) {
 	#intro, #intro-details, #grey-screen {
-		max-height: 450px;
+		max-height: 550px;
 	}
 }
