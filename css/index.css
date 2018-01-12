@@ -96,7 +96,6 @@ footer > div > div > div > p {
 #print-screen {
 	padding: 10px;
 	font-family: 'Comic Sans MS', monospace;
-	font-size: 1.4em;
 }
 
 @media screen and (max-width: 992px) {
