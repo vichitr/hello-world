@@ -111,6 +111,6 @@ footer > div > div > div > p {
 
 @media screen and (max-width: 600px) {
 	#intro, #intro-details, #grey-screen {
-		max-height: 600px;
+		max-height: 650px;
 	}
 }
