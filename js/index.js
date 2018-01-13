@@ -8,10 +8,10 @@ $(document).ready(function(){
 	}
 });
 $(window).scroll(function() {
-	if(($('#whoiam').offset().top - $(window).scrollTop() <= 25) && ($('#ftr').offset().top() - $(window).scrollTop() > -40)) {
-		$('.barcolor').removeClass('white-text').addClass('purple-text').addClass('text-accent-3');
+	if(($('#whoiam').offset().top - $(window).scrollTop() <= 25)) {
+		$('.barcolor').removeClass('white-text').addClass('purple-text').addClass('text-accent-2');
 	}
 	else {
-		$('.barcolor').removeClass('purple-text').removeClass('text-accent-3').addClass('white-text');
+		$('.barcolor').removeClass('purple-text').removeClass('text-accent-2').addClass('white-text');
 	}
 });
