@@ -6,6 +6,19 @@ $(document).ready(function(){
 	{
 		$('#grey-screen').height($('#intro-details').height() - 20);
 	}
+	$('.mypos').typed({
+		strings: [
+			"Web Developer",
+			"Competitive Coder",
+			"Web Designer",
+			"Front End Developer"
+		],
+		typeSpeed: 0,
+		loop: true,
+		backDelay: 500,
+		backSpeed: 0,
+		shuffle: true
+	});
 });
 $(window).scroll(function() {
 	if(($('#whoiam').offset().top - $(window).scrollTop() <= 25)) {
