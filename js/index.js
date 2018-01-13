@@ -15,7 +15,7 @@ $(document).ready(function(){
 		],
 		typeSpeed: 0,
 		loop: true,
-		backDelay: 500,
+		backDelay: 2500,
 		backSpeed: 0,
 		shuffle: true
 	});
